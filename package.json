@@ -12,7 +12,7 @@
     "test": "mocha"
   },
   "typings": "index.d.ts",
-  "repository": "https://github.com/Saviio/teambition-sdk-graphQL.git",
+  "repository": "https://github.com/teambition/teambition-sdk-graphQL.git",
   "keywords": [
     "teambition",
     "graphql"
@@ -20,9 +20,9 @@
   "author": "teambition",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/teambition/tb-apps-sdk/issues"
+    "url": "https://github.com/teambition/teambition-sdk-graphQL/issues"
   },
-  "homepage": "https://github.com/teambition/tb-apps-sdk",
+  "homepage": "https://github.com/teambition/teambition-sdk-graphQL",
   "peerDependencies": {
     "tslib": "^1.6.0",
     "teambition-sdk": ">=0.11.0"
