@@ -1,6 +1,6 @@
 {
   "name": "teambition-sdk-graphql",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A graphQL extention for teambition-sdk.",
   "main": "./index.js",
   "scripts": {
