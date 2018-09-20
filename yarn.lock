@@ -1930,8 +1930,8 @@ rimraf@^2.6.1, rimraf@^2.6.2:
     glob "^7.0.5"
 
 rxjs@^5.4.3:
-  version "5.5.11"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.11.tgz#f733027ca43e3bec6b994473be4ab98ad43ced87"
+  version "5.5.12"
+  resolved "http://registry.npm.taobao.org/rxjs/download/rxjs-5.5.12.tgz#6fa61b8a77c3d793dbaf270bee2f43f652d741cc"
   dependencies:
     symbol-observable "1.0.1"
 
@@ -2218,15 +2218,15 @@ supports-color@^3.1.2:
 
 symbol-observable@1.0.1:
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
+  resolved "http://registry.npm.taobao.org/symbol-observable/download/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
 
 symbol-observable@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
-teambition-sdk@^0.12.17:
+teambition-sdk@>=0.11.0:
   version "0.12.17"
-  resolved "https://registry.yarnpkg.com/teambition-sdk/-/teambition-sdk-0.12.17.tgz#a7e547f8e4f5666cf0b4bd7a73d89d8b66f251cb"
+  resolved "https://registry.npmjs.org/teambition-sdk/-/teambition-sdk-0.12.17.tgz#a7e547f8e4f5666cf0b4bd7a73d89d8b66f251cb"
 
 test-exclude@^4.2.0:
   version "4.2.1"
@@ -2341,9 +2341,9 @@ type-detect@^4.0.0, type-detect@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/type-detect/-/type-detect-4.0.8.tgz#7646fb5f18871cfbb7749e69bd39a6388eb7450c"
 
-typescript@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.0.1.tgz#43738f29585d3a87575520a4b93ab6026ef11fdb"
+typescript@^2.8.0:
+  version "2.9.2"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-2.9.2.tgz#1cbf61d05d6b96269244eb6a3bce4bd914e0f00c"
 
 uglify-js@^2.6:
   version "2.8.29"

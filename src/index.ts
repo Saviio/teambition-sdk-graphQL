@@ -2,17 +2,22 @@ import { SDK } from 'teambition-sdk'
 
 import { Variables, GraphQLResponse, GraphQLRequest } from './interface'
 
-function request<T>(this: SDK, query: string, variables?: Variables, withHeaders: boolean = false) {
+function request<T extends object>(this: SDK, query: string, variables?: Variables, withHeaders: boolean = false) {
   const requestBody = JSON.stringify({
     query,
     variables: variables ? variables : undefined,
   })
 
   return this.fetch
-    .post<GraphQLResponse<T>>(this.graphQLClientOption.host, requestBody, { includeHeaders: true })
+    .post<GraphQLResponse<T>>(
+      this.graphQLClientOption.host,
+      requestBody,
+      { ...this.graphQLClientOption, includeHeaders: true }
+    )
     .map(({ headers, body }) => {
       if (withHeaders) {
-        return  ({ ...body.data, headers })
+        const data: object = body.data
+        return  ({ ...data, headers: headers })
       }
       return body.data
     })
